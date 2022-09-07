@@ -1,0 +1,27 @@
+.SearchPage{
+    flex: 0.85;
+}
+
+.SearchFilter{
+    display: flex;
+    align-items: center;
+    color: #606060;
+    font-size: xx-small !important;
+}
+
+.SearchFilter h2{
+    margin-left: 0.5em;
+}
+
+.SearchPage{
+    flex: 0.85;
+    padding: 2em 2em;
+    margin-left: 3em;
+    margin-right: 3em;
+    padding-bottom: 0;
+}
+
+.SearchPage hr{
+    border-bottom: 1px rgb(181, 181, 181);
+    margin: 1em 0;
+}

@@ -1,0 +1,48 @@
+.sidebar{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex: 0.15;
+    background-color: rgb(247, 247, 247);
+}
+
+a:link{
+    text-decoration: none;
+}
+.SideComp{
+    display: flex;
+    align-items: center;
+    padding-left: 1em;
+}
+
+.SideComp:hover{
+    background-color: lightgray;
+    cursor: pointer;
+}
+
+.SideComp:hover .CompIcon{
+    color:red;
+}
+
+.CompIcon{
+    color:rgb(87, 87, 87);
+}
+
+hr{
+    border-bottom: 1px rgb(181, 181, 181);
+    margin: 1em 0;
+}
+
+.SideComp h5{
+    color: black;
+    flex:1;
+    margin-left: 1.5em;
+    font-weight: light;
+}
+
+.copyright{
+    font-size: smaller;
+    margin-left: 1em;
+    margin-right: 1em;
+    color: grey;
+}

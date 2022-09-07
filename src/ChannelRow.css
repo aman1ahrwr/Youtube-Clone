@@ -1,0 +1,31 @@
+.ChannelRow{
+    display: flex;
+    align-items: center;
+    width: 70%;
+}
+
+.channelInfo h3{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: normal;
+    margin-bottom: 0.3em;
+}
+
+.channelInfo{
+    display: flex;
+    flex-direction: column;
+}
+
+.img{
+    height:8em !important;
+    width:8em !important;
+    margin: 1em 6em;
+}
+
+.channelInfo p{
+    padding: 0.3em 0;
+    color: grey;
+    font-size: small;
+}
+

@@ -1,0 +1,52 @@
+.videoCard{
+    width: 19em;
+    margin-bottom:2em;
+}
+.thumbnailImage:hover{
+    opacity:70%;
+}
+
+.thumbnailImage{
+    height: 10em;
+    width: 18em;
+}
+
+
+.info{
+    display: flex;
+    align-items: center;
+    margin-top: 0.5em;
+    padding-right: 3em;
+}
+
+.videoText{
+    margin-top: 0;
+    margin-left:1em;
+}
+
+.videoText h4{
+    font-weight: lighter;
+    font-size: 1.05em;
+    color:black;
+    margin-bottom: 0.2em;
+}
+
+.videoText p{
+    color: grey;
+    font-size: 0.9em;
+}
+
+p{
+    margin:0;
+    padding: 0;
+}
+
+h4{
+    margin:0;
+    padding: 0;
+}
+
+.videoAvatar{
+    height: 2em !important; 
+    width: 2em !important; 
+}

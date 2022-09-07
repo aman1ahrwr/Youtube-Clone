@@ -1,0 +1,51 @@
+.Header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1em;
+    border-bottom: 1px solid rgb(181, 181, 181);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background-color: rgb(247, 247, 247);
+}
+
+
+.youtubeImg{
+    height: 1.5em;
+    object-fit: contain;
+    margin-left: 1em;
+}
+
+
+.centerHeader{
+    display: flex;
+    align-items: center;
+    width: 40%;
+    border: 1px solid rgb(135, 135, 135);
+}
+
+.rightHeader{
+    display: flex;
+    align-items: center;
+}
+
+.leftHeader{
+    display: flex;
+    align-items: center;
+}
+
+.centerHeader input{
+    flex:1;
+    border:none;
+}
+
+.headerIcons{
+    margin-right: 0.7em;
+}
+
+.searchButton{
+    width:2.5em !important;
+    background-color: rgb(238, 238, 238);
+    border-left: 1px solid rgb(135, 135, 135);
+}

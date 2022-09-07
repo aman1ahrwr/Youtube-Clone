@@ -1,0 +1,53 @@
+
+.VideoRow{
+    margin:1em;
+    display: flex;
+    align-items: center;
+}
+
+.VideoRow img{
+    object-fit: contain;
+    height: 10em;
+    width: 18em;
+}
+
+.VideoInfo{
+    margin-left: 1em;
+}
+
+.VideoInfo h3{
+    font-weight: normal;
+    margin-top: 0;
+    margin-bottom: 1em;
+}
+
+.avatar{
+    margin-bottom: 1em;
+    display: flex;
+    align-items: center;
+}
+
+.avatar p{
+    font-weight: lighter;
+    font-size: small;
+    margin-left: 0.5em;
+    padding-top: 0;
+}
+
+.image{
+    height: 2em !important;
+    width: 2em !important;
+    border-radius: 100%;
+}
+
+.info{
+    color: #606060;
+    font-size: small;
+    margin-bottom: 1em;
+}
+
+.desc{
+    font-size: small;
+    color: #606060;
+}
+

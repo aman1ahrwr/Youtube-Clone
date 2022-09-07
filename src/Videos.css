@@ -1,0 +1,10 @@
+.videos{
+    flex: 0.85;
+    padding: 2em 2em;
+    padding-bottom: 0;
+}
+
+.videoList{
+    display: flex;
+    flex-wrap: wrap;
+}
